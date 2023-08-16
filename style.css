@@ -1,0 +1,81 @@
+/* Browser reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* All page styling */
+
+h1 {
+    background-color: blanchedalmond;
+    font-size: 40px;
+    color:darkblue;  
+}
+
+/* Index page styling */
+
+h1, .recipe-list {
+    text-align: center;
+    padding: 30px;
+}
+
+.recipe-list {
+    background-color: antiquewhite;
+    font-size: 18px;
+}
+
+.list-item {
+    list-style-type: none;
+    padding: 10px 0px;
+}
+
+.list-item a {
+    text-decoration: none;
+}
+
+.list-item a:hover {
+    text-decoration: underline;
+}
+
+/* Recipe pages styling */
+
+h3 {
+    margin: 20px;
+}
+
+p {
+    width: 40%;
+    margin-left: 20px;
+}
+
+.img-adjust {
+    margin: 20px;
+    border: solid green 2px;
+}
+
+.ingredients li {
+    padding: 15px 20px;
+}
+
+.steps {
+    margin-left:40px;
+}
+
+.steps li {
+    padding: 15px;
+    width: 40%;
+}
+
+.back {
+    display: inline-block;
+    margin: 20px 0px 40px 20px;
+    text-decoration: none;
+    color:blue;
+    font-weight: bold;
+}
+
+.back:hover {
+    text-decoration: underline;
+}
